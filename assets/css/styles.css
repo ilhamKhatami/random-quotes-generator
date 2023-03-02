@@ -1,0 +1,41 @@
+:root {
+  --bs-navy: #28364e;
+  --bs-marron: rgb(165, 42, 42);
+  --bs-brown: rgb(116, 53, 34);
+}
+
+.wrapper {
+  width: 545px;
+}
+
+.card-bottom {
+  background: rgb(255,255,255);
+  border-width: 0px;
+  text-align: right;
+}
+
+.quote::before {
+  content: open-quote;
+}
+
+.quote::after {
+  content: close-quote;
+}
+
+.blockquote-footer {
+  font-size: 1.2em;
+}
+
+.card-container {
+  background: rgb(255, 255, 255);
+  padding: 30px 30px 25px 20px;
+}
+
+.quote {
+  padding: 0 30px;
+}
+
+footer {
+  padding: 8px;
+}
+
